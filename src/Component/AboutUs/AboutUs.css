@@ -1,0 +1,110 @@
+#mybodyAbout
+{
+  color: white;
+    width: 100%;
+}
+
+.mytitleAbout
+{
+    text-align: center;
+    font-size: 7rem;
+    color: #ffffff;
+    margin-left: 20%;
+    position: absolute;
+    padding: 0;
+    z-index: 1;
+    font-family: Inter,sans-serif;
+    text-shadow: 6px 6px 8px #000000;
+}
+
+#image1About
+{
+    width: 100%;
+}
+
+.cardabout
+{
+    border-radius: 10px;
+    position: absolute;
+    background-color: #1a1a1a;
+    box-shadow: rgba(255, 255, 255, 1) 0px 54px 55px, rgba(255, 255, 255, 1) 0px -12px 30px, rgba(255, 255, 255, 1) 0px 4px 6px, rgba(255, 255, 255, 1) 0px 12px 13px, rgba(255, 255, 255, 1) 0px -3px 5px;
+    text-align: center;
+    z-index: 1;
+    margin-top: -10%;
+    height: fit-content ;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#introAbout
+{
+    color: white;
+    padding-top: 2%;
+    text-decoration: underline ;
+    text-shadow: 0.5px 0.5px 1px whitesmoke;
+}
+
+#introParaAbout
+{
+  color: white;
+
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: left;
+    font-size: larger;
+    line-height: 1.7;
+    text-shadow: 0.5px 0.5px 1px whitesmoke;
+}
+
+#tableAbout{
+    color: white;
+    margin-top: 8%;
+    margin-left: 25%;
+    width: 100%;
+}
+
+#container1About
+{
+    box-shadow: rgba(0, 0, 0, 1) 0px 54px 55px, rgba(0, 0, 0, 1) 0px -12px 30px, rgb(0, 0, 0) 0px 4px 6px, rgb(0, 0, 0) 0px 12px 13px, rgb(0, 0, 0) 0px -3px 5px;
+    color: white;
+    height: fit-content;
+    margin-left: -60%;
+    width: 20rem;
+}
+
+#container1About:hover
+{
+    box-shadow: rgba(255, 255, 255, 1) 0px 54px 55px, rgba(255, 255, 255, 1) 0px -12px 30px, rgba(255, 255, 255, 1) 0px 4px 6px, rgba(255, 255, 255, 1) 0px 12px 13px, rgba(255, 255, 255, 1) 0px -3px 5px;
+}
+
+#container2About
+{
+    box-shadow: rgba(0, 0, 0, 1) 0px 54px 55px, rgba(0, 0, 0, 1) 0px -12px 30px, rgb(0, 0, 0) 0px 4px 6px, rgb(0, 0, 0) 0px 12px 13px, rgb(0, 0, 0) 0px -3px 5px;
+    height: fit-content;
+    margin-left: -65%;
+    width: 20rem;
+}
+
+#container2About:hover
+{
+    box-shadow: rgba(255, 255, 255, 1) 0px 54px 55px, rgba(255, 255, 255, 1) 0px -12px 30px, rgba(255, 255, 255, 1) 0px 4px 6px, rgba(255, 255, 255, 1) 0px 12px 13px, rgba(255, 255, 255, 1) 0px -3px 5px;
+}
+
+#container3About
+{
+    box-shadow: rgba(0, 0, 0, 1) 0px 54px 55px, rgba(0, 0, 0, 1) 0px -12px 30px, rgb(0, 0, 0) 0px 4px 6px, rgb(0, 0, 0) 0px 12px 13px, rgb(0, 0, 0) 0px -3px 5px;
+    margin-left: -70%;
+    width: 20rem;
+    height: fit-content;
+
+}
+
+#container3About:hover
+{
+    box-shadow: rgba(255, 255, 255, 1) 0px 54px 55px, rgba(255, 255, 255, 1) 0px -12px 30px, rgba(255, 255, 255, 1) 0px 4px 6px, rgba(255, 255, 255, 1) 0px 12px 13px, rgba(255, 255, 255, 1) 0px -3px 5px;
+}
+
+#footerabout
+{
+    margin-top: 70%;
+}

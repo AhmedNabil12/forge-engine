@@ -1,0 +1,150 @@
+
+.myheaderLearn
+{
+  width: 100%;
+}
+
+#sloganLearn
+{
+    top: 25%;
+    left: 5%;
+    text-shadow: 6px 6px 8px #000000;
+}
+
+.titleLearn
+{
+  text-align: center;
+  font-size: 4rem;
+  color: #ffffff;
+  margin-left: 15%;
+  position: absolute;
+  padding: 0;
+  z-index: 1;
+  font-family: Inter,sans-serif;
+  text-shadow: 6px 6px 8px #000000;
+}
+
+#image1Learn
+{
+  width: 100%;
+}
+#image2Learn{
+  padding-top: 22px;
+  width: 150px;
+  height: auto;
+}
+.BigcardLearn
+{
+  width: 1000px;
+  color: white;
+  height: 700px;
+   border-radius: 10px;
+    position: absolute;
+    background-color: #1a1a1a;
+    box-shadow: rgba(255, 255, 255, 1) 0px 54px 55px, rgba(255, 255, 255, 1) 0px -12px 30px, rgba(255, 255, 255, 1) 0px 4px 6px, rgba(255, 255, 255, 1) 0px 12px 13px, rgba(255, 255, 255, 1) 0px -3px 5px;
+    text-align: center;
+    z-index: 1;
+    margin-top: -10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+.containerLearn {
+position: absolute;
+height: 300px;
+width: 600px;
+
+left: calc(50% - 300px);
+display: flex;
+}
+
+.card {
+display: flex;
+height: 295px;
+width: 200px;
+background-color: #17141d;
+border-radius: 10px;
+box-shadow: -1rem 0 3rem rgba(62, 53, 228, 0.374);
+/*   margin-left: -50px; */
+transition: 0.4s ease-out;
+position: relative;
+left: 0px;
+}
+
+.card:hover{
+  box-shadow: rgb(217, 232, 10) 0px 54px 55px, rgba(255, 255, 255, 1) 0px -12px 30px, rgba(255, 255, 255, 1) 0px 4px 6px, rgba(255, 255, 255, 1) 0px 12px 13px, rgba(255, 255, 255, 1) 0px -3px 5px;
+
+}
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card:hover {
+transform: translateY(-20px);
+transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+position: relative;
+left: 50px;
+transition: 0.4s ease-out;
+}
+
+#title {
+color: white;
+font-weight: 8;
+position: absolute;
+left: 20px;
+top: 15px;
+}
+
+.bar {
+position: absolute;
+top: 100px;
+left: 20px;
+height: 5px;
+width: 150px;
+}
+
+.emptybar {
+background-color: #2e3033;
+width: 100%;
+height: 100%;
+}
+
+.filledbar {
+position: absolute;
+top: 0px;
+z-index: 3;
+width: 0px;
+height: 100%;
+background: rgb(0,154,217);
+background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+transition: 0.6s ease-out;
+}
+
+.card:hover .filledbar {
+width: 120px;
+transition: 0.4s ease-out;
+}
+
+
+.stroke {
+stroke: white;
+stroke-dasharray: 360;
+stroke-dashoffset: 360;
+transition: 0.6s ease-out;
+}
+
+
+.card:hover .stroke {
+stroke-dashoffset: 100;
+transition: 0.6s ease-out;
+}
+
+#footerabout
+{
+  margin-top: 70%;
+}

@@ -1,0 +1,47 @@
+#tableDownload {
+    color: white;
+    margin-top: 8%;
+    margin-left: 25%;
+    width: 100%;
+}
+
+#container1Download {
+    box-shadow: rgba(0, 0, 0, 1) 0px 54px 55px, rgba(0, 0, 0, 1) 0px -12px 30px, rgb(0, 0, 0) 0px 4px 6px, rgb(0, 0, 0) 0px 12px 13px, rgb(0, 0, 0) 0px -3px 5px;
+
+    height: fit-content;
+    margin-left: -60%;
+    width: 20rem;
+}
+
+#container1Download:hover {
+    box-shadow: rgba(255, 255, 255, 1) 0px 54px 55px, rgba(255, 255, 255, 1) 0px -12px 30px, rgba(255, 255, 255, 1) 0px 4px 6px, rgba(255, 255, 255, 1) 0px 12px 13px, rgba(255, 255, 255, 1) 0px -3px 5px;
+}
+
+#container2Download {
+    box-shadow: rgba(0, 0, 0, 1) 0px 54px 55px, rgba(0, 0, 0, 1) 0px -12px 30px, rgb(0, 0, 0) 0px 4px 6px, rgb(0, 0, 0) 0px 12px 13px, rgb(0, 0, 0) 0px -3px 5px;
+
+    height: fit-content;
+    margin-left: -65%;
+    width: 20rem;
+}
+
+#container2Download:hover {
+    box-shadow: rgba(255, 255, 255, 1) 0px 54px 55px, rgba(255, 255, 255, 1) 0px -12px 30px, rgba(255, 255, 255, 1) 0px 4px 6px, rgba(255, 255, 255, 1) 0px 12px 13px, rgba(255, 255, 255, 1) 0px -3px 5px;
+}
+
+#container3Download {
+    box-shadow: rgba(0, 0, 0, 1) 0px 54px 55px, rgba(0, 0, 0, 1) 0px -12px 30px, rgb(0, 0, 0) 0px 4px 6px, rgb(0, 0, 0) 0px 12px 13px, rgb(0, 0, 0) 0px -3px 5px;
+
+    margin-left: -70%;
+    width: 20rem;
+    height: fit-content;
+
+}
+
+#container3Download:hover {
+    box-shadow: rgba(255, 255, 255, 1) 0px 54px 55px, rgba(255, 255, 255, 1) 0px -12px 30px, rgba(255, 255, 255, 1) 0px 4px 6px, rgba(255, 255, 255, 1) 0px 12px 13px, rgba(255, 255, 255, 1) 0px -3px 5px;
+}
+
+#footerabout {
+    margin-top: 70%;
+}
